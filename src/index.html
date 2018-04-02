@@ -8,9 +8,11 @@
     <%= t.include("partials/_nav.html") %>
     <%= t.include("partials/_ad.html", {type: "banner"}) %>
     <header class=splash>
-      <h1>#UsToo</h1>
+
+      <h1 class="image-container">
+        <img src="./assets/photos/ustoo-header.jpg" alt="Us Too">
+      </h1>
       
-      <%= t.include("_portrait.html", { filename: "bharoocha", caption: "bharoocha" }) %>
       
       <h2 class="constrained">
         Seattle-area women reflect on the cultural risks and benefits of sharing their #MeToo stories
@@ -27,7 +29,16 @@
     <main class="content">
 
       <div class="constrained">
+        <aside class="sidebar facebook-live">
+          Join Tyrone Beason and some of the women from this article in a special Facebook Live event: <a href="">Friday, April 6 at XXPM</a>
+        </aside>
         <%= t.renderMarkdown(archieml.story.part1) %>
+      </div>
+
+      <%= t.include("_portrait.html", { filename: "bharoocha", caption: "bharoocha" }) %>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.story.part1b) %>
       </div>
 
       <%= t.include("_portrait.html", { filename: "cortes", caption: "cortes" }) %>

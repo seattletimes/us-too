@@ -19,3 +19,4 @@ var onScroll = function() {
 };
 
 window.addEventListener("scroll", debounce(onScroll, 200));
+onScroll();
