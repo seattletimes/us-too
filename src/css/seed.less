@@ -4,10 +4,6 @@
 
 @wide: ~"(min-width: 1000px)";
 
-main {
-	padding-bottom: 20vh;
-}
-
 .constrained {
 	margin: auto;
 	max-width: 800px;
@@ -21,9 +17,17 @@ header.splash{
 	}
 
 	.image-container {
-		padding: 10vh 16px;
+		padding: 15vh 16px;
 		background: black;
 		margin: 40px 0;
+
+		@media @wide {
+			padding: 10vh 16px;
+		}
+
+		@media @mobile {
+			padding: 60px 8px;
+		}
 
 		img {
 			width: 1920px;
@@ -84,9 +88,11 @@ aside.sidebar {
 
 .portrait {
 	margin: 20px auto;
+	max-width: 1600px;
 
 	img {
-		display:block;
+		display: block;
+		margin: auto;
 	}
 
 	.caption{
@@ -149,4 +155,18 @@ main.content {
 		font-style: normal;
 		font-size: 120%;
 	}
+}
+
+hr {
+	max-width: 200px;
+	width: 50%;
+	height: 6px;
+	background: @df-dark-gray;//@accent;
+	border: none;
+	margin: 40px auto;
+}
+
+footer.tagline {
+	font-family: @df-sans;
+	padding: 0px 16px 40px;
 }
