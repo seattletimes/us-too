@@ -1,5 +1,7 @@
 @import "seattletimes";
 
+@accent: rgb(189, 0, 41);
+
 .constrained {
 	margin: auto;
 	max-width: 800px;
@@ -16,6 +18,11 @@ header.splash{
 	to { opacity: 1 }
 }
 
+@keyframes slide {
+	from { height: 0% }
+	to { height: 100% }
+}
+
 .portrait{
 
 	img {
@@ -30,11 +37,41 @@ header.splash{
 		padding: 16px;
 	}
 
-	.text {
+	.container {
+		position: relative;
 		max-width: 1200px;
 		margin: auto;
-		border-left: 6px solid rgb(189, 0, 41);
+		// border-left: 6px solid rgb(189, 0, 41);
 		padding-left: 16px;
-		animation: 4s fade;
+		// animation: 4s fade;
+	}
+
+	.border-line {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: @accent;
+		width: 6px;
+		height: 100%;
+	}
+
+	.javascript & {
+		.text {
+			opacity: 0;
+		}
+
+		.border-line {
+			height: 0%;
+		}
+
+		.caption.seen {
+			.text {
+				animation: 2s fade 1s both;
+			}
+
+			.border-line {
+				animation: 1s slide 0s both;
+			}
+		}
 	}
 }
