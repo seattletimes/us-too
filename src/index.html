@@ -8,11 +8,21 @@
     <%= t.include("partials/_nav.html") %>
     <%= t.include("partials/_ad.html", {type: "banner"}) %>
     <header class=splash>
-      <img src="./assets/photos/cortes_Schultz.jpg">
-      <%= archieml.story.captions.cortes %>
+      <h1>#UsToo</h1>
+      
+      <%= t.include("_portrait.html", { filename: "bharoocha", caption: "bharoocha" }) %>
+      
+      <h2 class="constrained">
+        Seattle-area women reflect on the cultural risks and benefits of sharing their #MeToo stories
+      </h2>
+      
+      <ul class="byline constrained">
+        <li> By <a class="name">Tyrone Beason</a>
+        <li> Photos by <a class="name">Erika Schultz</a>
+        <li> Development by <a class="name">Emily Eng</a> and <a class="name">Thomas Wilburn</a>
+      </ul>
     </header>
 
-    <%= t.include("_portrait.html", { filename: "bharoocha", caption: "bharoocha" }) %>
     
     <main class="content">
 
@@ -20,33 +30,41 @@
         <%= t.renderMarkdown(archieml.story.part1) %>
       </div>
 
-      <%= t.include("_portrait.html", { filename: "jha", caption: "jha" }) %>
+      <%= t.include("_portrait.html", { filename: "cortes", caption: "cortes" }) %>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.story.part2) %>
       </div>
 
-      <%= t.include("_portrait.html", { filename: "siddick", caption: "siddick" }) %>
+      <%= t.include("_portrait.html", { filename: "jha", caption: "jha" }) %>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.story.part3) %>
       </div>
 
-      <%= t.include("_portrait.html", { filename: "askini", caption: "askini" }) %>
+      <%= t.include("_portrait.html", { filename: "siddick", caption: "siddick" }) %>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.story.part4) %>
       </div>
 
-      <%= t.include("_portrait.html", { filename: "black_horse", caption: "black_horse" }) %>
+      <%= t.include("_portrait.html", { filename: "askini", caption: "askini" }) %>
 
       <div class="constrained">
         <%= t.renderMarkdown(archieml.story.part5) %>
       </div>
 
+      <%= t.include("_portrait.html", { filename: "black_horse", caption: "black_horse" }) %>
+
+      <div class="constrained">
+        <%= t.renderMarkdown(archieml.story.part6) %>
+      </div>
+
       <%= t.include("_portrait.html", { filename: "prom", caption: "prom" }) %>
 
     </main>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

@@ -2,14 +2,40 @@
 
 @accent: rgb(189, 0, 41);
 
+main {
+	padding-bottom: 20vh;
+}
+
 .constrained {
 	margin: auto;
 	max-width: 800px;
-	padding: 0 16px;}
+	padding: 0 16px;
+}
 
 header.splash{
-	img {
-		display: block;
+	h1 {
+		text-align: center;
+		font-size: 64px;
+		// color: @accent;
+		text-align: center;
+		margin: 40px auto;
+		border-top: 6px solid @accent;
+		max-width: 33%;
+		padding-top: 20px;
+	}
+
+	h2 {
+		padding: 0 16px 30px;
+	}
+
+	.byline {
+		list-style-type: none;
+		font-size: 16px;
+		font-family: @df-sans;
+
+		.name {
+			color: @df-dark-gray;
+		}
 	}
 }
 
@@ -23,7 +49,8 @@ header.splash{
 	to { height: 100% }
 }
 
-.portrait{
+.portrait {
+	margin: 20px auto;
 
 	img {
 		display:block;
@@ -44,6 +71,12 @@ header.splash{
 		// border-left: 6px solid rgb(189, 0, 41);
 		padding-left: 16px;
 		// animation: 4s fade;
+	}
+
+	.text {
+		@media @mobile {
+			font-size: 16px;
+		}
 	}
 
 	.border-line {
@@ -73,5 +106,14 @@ header.splash{
 				animation: 1s slide 0s both;
 			}
 		}
+	}
+}
+
+main.content {
+	em {
+		font-weight: bold;
+		color: @accent;
+		font-style: normal;
+		font-size: 120%;
 	}
 }

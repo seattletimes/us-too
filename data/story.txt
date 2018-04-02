@@ -16,7 +16,7 @@ prom: Annika Prom, a student journalist from Mountlake Terrace High School, is p
 
 {}
 
-part1: HALEEMA BHAROOCHA walks across a room like she means business — shoulders squared, back straight, head held high.
+part1: *HALEEMA BHAROOCHA* walks across a room like she means business — shoulders squared, back straight, head held high.
 
 She reaches out first to initiate a handshake.
 
@@ -46,13 +46,17 @@ An African-American woman, Tarana Burke, started the “Me Too” movement in 20
 
 Legendary Latina activist Dolores Huerta recently told PBS’ “Frontline” that female farmworkers have suffered from a sexual-harassment “epidemic.”
 
+:end
+
+part2:
+
 Last summer, in Seattle, a King County Superior Court judge handed lower-wage hospitality workers a legal victory when he [threw out a lawsuit by hotel owners](https://www.seattletimes.com/seattle-news/politics/seattle-hotel-worker-rights-intact-after-king-county-judge-tosses-lawsuit/) opposed to voter-approved protections for hotel housekeepers — a field with high percentages of Hispanic, Asian and immigrant women, and where sexual harassment and mistreatment are common. Advocates are pushing the City Council to require [written contracts, workers' compensation and other benefits](https://www.seattletimes.com/seattle-news/politics/push-for-new-domestic-worker-benefits-reaches-seattle-city-council/) for house cleaners and nannies.
 
 A nationwide intimate-partner and sexual-assault survey by the Centers for Disease Control and Prevention conducted between 2010 and 2012 found that 49.5 percent of multiracial women, 45.6 percent of Native American women, 38.9 percent of non-Hispanic white women, 35.5 percent of non-Hispanic black women, 26.9 percent of Hispanic women and 22.9 of Asian/Pacific Islander women had experienced some form of physical sexual violence.
 
 “It was frustrating to see so many people left out in the margins,” Bharoocha says of the early days of #MeToo.
 
-DRESSED IN BLACK when we meet, Bharoocha epitomizes strength and defiance.
+*DRESSED IN BLACK* when we meet, Bharoocha epitomizes strength and defiance.
 
 Still, “There’s just so much that I’m carrying around with me,” she says.
 
@@ -80,7 +84,7 @@ Bharoocha says it’s also crucial to help young men identify misconduct among o
 
 :end
 
-part2: SONORA JHA, an author, feminist scholar and journalism professor at Seattle University, says she’s found an ally in her 22-year-old son, an Indian-American college student living in a #MeToo world.
+part3: *SONORA JHA*, an author, feminist scholar and journalism professor at Seattle University, says she’s found an ally in her 22-year-old son, an Indian-American college student living in a #MeToo world.
 
 They had intense conversations after news broke about allegations of sexual coercion against “Master of None” star Aziz Ansari, who is Indian American, by a woman who had gone on a date with him. Ansari apologized, but the woman’s account sparked an uncomfortable debate about what constitutes sexual consent.
 
@@ -120,7 +124,7 @@ Alexie, a member of the Spokane-Coeur d’Alene tribe, [apologized to those he h
 
 :end
 
-part3: TRAUMA’S BITTER WATERS always find a path to the surface.
+part4: *TRAUMA’S BITTER WATERS* always find a path to the surface.
 
 For Salma Siddick, the tears came at a busy cafe while talking to a reporter about all the #MeToo incidents she mistakenly wrote off as no big deal at the time.
 
@@ -174,7 +178,7 @@ Siddick’s energized by so many women unapologetically speaking up, daring soci
 
 :end
 
-part4: FOR SEATTLE-BASED transgender-rights activist Danni Askini, the #MeToo movement offers an opportunity to expand our ideas about gender-based harassment and violence and how to talk about it.
+part5: *FOR SEATTLE-BASED* transgender-rights activist Danni Askini, the #MeToo movement offers an opportunity to expand our ideas about gender-based harassment and violence and how to talk about it.
 
 She knows a number of trans people, and gender-nonconforming friends, who’ve also endured harassing questions at the workplace about their bodies and sex lives, comments that would be totally out of line if they were posed to anyone else.
 
@@ -208,7 +212,7 @@ It wore her down.
 
 :end
 
-part5: BREE BLACK HORSE, a rising Native American attorney in Seattle, says her mother, Seminole artist [Catherine Black Horse](http://catherineblackhorse.com/art/), once gave her unforgettable advice.
+part6: *BREE BLACK HORSE*, a rising Native American attorney in Seattle, says her mother, Seminole artist [Catherine Black Horse](http://catherineblackhorse.com/art/), once gave her unforgettable advice.
 
 “ ‘Boys are time-wasters and dream-killers’ — those were her exact words,” Black Horse says when we meet to discuss the #MeToo movement’s importance to indigenous communities.
 

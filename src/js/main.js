@@ -13,7 +13,7 @@ var captions = $(".caption");
 var onScroll = function() {
   captions = captions.filter(function(c) {
     var bounds = c.getBoundingClientRect();
-    if (bounds.top > window.innerHeight * .8) return true;
+    if (bounds.top < 0 || bounds.top > window.innerHeight * .8) return true;
     c.classList.add("seen");
   });
 };
