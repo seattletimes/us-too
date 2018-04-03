@@ -4,6 +4,10 @@
 
 @wide: ~"(min-width: 1000px)";
 
+a {
+	text-decoration: underline;
+}
+
 .constrained {
 	margin: auto;
 	max-width: 800px;
@@ -78,6 +82,13 @@ aside.sidebar {
 
 	a {
 		color: @df-light-gray;
+	}
+
+	hr {
+		background: @df-middle-gray;
+		margin: 20px auto;
+		border-radius: 4px;
+		height: 3px;
 	}
 
 	@media @wide {

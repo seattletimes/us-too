@@ -1,5 +1,6 @@
 // require("./lib/ads");
 // var track = require("./lib/tracking");
+var paywall = require("./lib/paywall");
 
 require("component-responsive-frame/child");
 

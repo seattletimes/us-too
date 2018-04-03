@@ -6,15 +6,15 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/us-too"
     }
   },
-  "title": "",
-  "description": "",
-  "url": "",
+  "title": "Us Too",
+  "description": "Seattle-area women reflect on the cultural risks and benefits of sharing their #MeToo stories",
+  "url": "https://projects.seattletimes.com/2018/us-too/",
   "image": "assets/social.jpg",
   "sheets": [],
   "standout": false,
-  "embedded": true,
-  "production": false
+  "embedded": false,
+  "production": true
 }
