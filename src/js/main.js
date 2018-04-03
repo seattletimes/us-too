@@ -1,6 +1,7 @@
-// require("./lib/ads");
+require("./lib/ads");
 // var track = require("./lib/tracking");
 var paywall = require("./lib/paywall");
+setTimeout(() => paywall(10777198), 1000);
 
 require("component-responsive-frame/child");
 
